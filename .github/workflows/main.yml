@@ -28,8 +28,8 @@ jobs:
       # Setup the python 
       - uses: actions/setup-python@v4.0.0
         with:
-              python-version: '3.2' 
-              architecture: 'x64l'
+              python-version: '3.8' 
+              architecture: 'x64'
       - run: |
           python --version 
         
